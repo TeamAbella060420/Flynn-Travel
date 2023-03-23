@@ -26,12 +26,10 @@ const Header = () => {
       <Container>
         <Row>
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
-            {/* ============== logo =================*/}
               <div className="logo">
                 <img src={logo} alt="" />
               </div>
-            {/* ============== logo end =================*/}
-            {/* ============== logo end =================*/}
+
             {
               nav__links.map((nav) => (
                 <div>

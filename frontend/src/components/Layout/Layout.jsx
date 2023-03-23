@@ -1,9 +1,15 @@
 
 import React from 'react'
+import Header from './../Headers/Header'
+import Footer from './../Footers/Footer'
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <>
+      <Header />
+      <div>Layout</div>
+      <Footer />
+    </>
   )
 }
 

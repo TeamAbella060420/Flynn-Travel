@@ -1,1 +1,1 @@
-In this practical MERN stack project, I'm going create a step-by-step full mern stack tours & travels booking website using react js, node js,  express js, MongoDB, JWT, cookies from scratch with modern UI and UX
+In this practical MERN stack project, I'm created a step-by-step full mern stack tours & travels booking website using react js, node js,  express js, MongoDB, JWT, cookies from scratch with modern UI and UX

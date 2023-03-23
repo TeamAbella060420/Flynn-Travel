@@ -26,17 +26,24 @@ const Header = () => {
       <Container>
         <Row>
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
+            {/* ============== logo =================*/}
               <div className="logo">
                 <img src={logo} alt="" />
               </div>
+            {/* ============== logo end =================*/}
+            {/* ============== menu start =================*/}
 
-            {
-              nav__links.map((nav) => (
-                <div>
-                  {nav.display}
-                </div>
-              ))
-            }
+          <div className="navigation">
+            <ul className="menu d-flex align-items-center gap-5">
+              {
+                nav__links.map((item, index) => (
+                  <li className='nav__item' key={index}>
+                    {item.display}
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
           </div>
         </Row>
       </Container>

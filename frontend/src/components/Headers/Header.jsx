@@ -30,7 +30,8 @@ const Header = () => {
               <div className="logo">
                 <img src={logo} alt="" />
               </div>
-            {/* ============== logo =================*/}
+            {/* ============== logo end =================*/}
+            {/* ============== logo end =================*/}
             {
               nav__links.map((nav) => (
                 <div>
